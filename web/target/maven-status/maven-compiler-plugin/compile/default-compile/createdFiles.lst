@@ -1,0 +1,6 @@
+com\gym\controller\CoachController.class
+com\gym\controller\ClientController.class
+com\gym\config\SwaggerConfig.class
+com\gym\Application.class
+com\gym\controller\OfficeController.class
+com\gym\controller\SubscriptionController.class

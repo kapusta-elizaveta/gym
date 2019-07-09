@@ -1,0 +1,16 @@
+D:\projectGym\dao\src\main\java\com\gym\entity\Subscription.java
+D:\projectGym\dao\src\main\java\com\gym\entity\Coach.java
+D:\projectGym\dao\src\main\java\com\gym\entity\SaleSubscription.java
+D:\projectGym\dao\src\main\java\com\gym\entity\Room.java
+D:\projectGym\dao\src\main\java\com\gym\repository\ClientRepository.java
+D:\projectGym\dao\src\main\java\com\gym\entity\Client.java
+D:\projectGym\dao\src\main\java\com\gym\repository\OfficeRepository.java
+D:\projectGym\dao\src\main\java\com\gym\repository\SaleSubscriptionRepository.java
+D:\projectGym\dao\src\main\java\com\gym\entity\Attendance.java
+D:\projectGym\dao\src\main\java\com\gym\entity\Office.java
+D:\projectGym\dao\src\main\java\com\gym\entity\BaseEntity.java
+D:\projectGym\dao\src\main\java\com\gym\repository\ScheduleRepository.java
+D:\projectGym\dao\src\main\java\com\gym\entity\Schedule.java
+D:\projectGym\dao\src\main\java\com\gym\repository\CoachRepository.java
+D:\projectGym\dao\src\main\java\com\gym\repository\RoomRepository.java
+D:\projectGym\dao\src\main\java\com\gym\repository\SubscriptionRepository.java

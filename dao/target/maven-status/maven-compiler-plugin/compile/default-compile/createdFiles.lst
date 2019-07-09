@@ -1,0 +1,16 @@
+com\gym\repository\SaleSubscriptionRepository.class
+com\gym\entity\BaseEntity.class
+com\gym\entity\Office.class
+com\gym\entity\Room.class
+com\gym\entity\SaleSubscription.class
+com\gym\entity\Coach.class
+com\gym\entity\Schedule.class
+com\gym\repository\RoomRepository.class
+com\gym\repository\OfficeRepository.class
+com\gym\entity\Subscription.class
+com\gym\entity\Attendance.class
+com\gym\repository\SubscriptionRepository.class
+com\gym\repository\ScheduleRepository.class
+com\gym\entity\Client.class
+com\gym\repository\CoachRepository.class
+com\gym\repository\ClientRepository.class
