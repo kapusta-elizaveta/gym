@@ -6,6 +6,7 @@ import com.gym.service.CoahService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,17 +23,17 @@ public class CoachController {
     }
 
    @GetMapping(value = "/")
-   ResponseEntity<List<CoachDto>> findAll(){
+   ResponseEntity<List<Coach>> findAll(){
         return new ResponseEntity<>(coahService.findAll(), HttpStatus.OK);
    }
 
     @GetMapping(value = "/name/{name}")
-    ResponseEntity<List<CoachDto>> findByName(@PathVariable("name") String name){
+    ResponseEntity<List<Coach>> findByName(@PathVariable("name") String name){
         return new ResponseEntity<>(coahService.findByName(name), HttpStatus.OK);
     }
 
     @GetMapping(value = "/id/{id}")
-    ResponseEntity<CoachDto> findById(@PathVariable("id") Integer id){
+    ResponseEntity<Coach> findById(@PathVariable("id") Integer id){
         return new ResponseEntity<>(coahService.findById(id), HttpStatus.OK);
     }
 
@@ -40,5 +41,10 @@ public class CoachController {
     ResponseEntity<Void> deleteById(@PathVariable("id") Integer id){
         coahService.deleteById(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
+    ResponseEntity<Coach> save(@Validated @RequestBody CoachDto coachDto){
+        return new ResponseEntity<>(coahService.save(coachDto), HttpStatus.CREATED);
     }
 }

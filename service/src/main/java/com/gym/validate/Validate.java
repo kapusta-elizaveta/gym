@@ -22,7 +22,10 @@ public class Validate {
 
     }
 
+
+
     public boolean correctPhoneNumber(String phoneNumber){
+
         return phoneNumber.matches("(\\+)\\d{12}");
     }
 
@@ -40,6 +43,11 @@ public class Validate {
         {
             return false;
         }
+    }
+
+    public boolean correctTime(String time){
+
+        return time.matches("([01]?[0-9]|2[0-3]):[0-5][0-9]");
     }
 
 }

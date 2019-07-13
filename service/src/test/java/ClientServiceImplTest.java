@@ -2,8 +2,11 @@ import com.gym.convertors.ClientConvert;
 import com.gym.dto.ClientDto;
 import com.gym.entity.Client;
 import com.gym.entity.Office;
+import com.gym.myException.ClientNotFoundException;
 import com.gym.repository.ClientRepository;
 import com.gym.service.impl.ClientServiceImpl;
+import com.gym.service.impl.OfficeServiceImpl;
+import com.gym.validate.Validate;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
@@ -41,16 +44,22 @@ public class ClientServiceImplTest {
     @InjectMocks
     ClientServiceImpl clientService;
 
+    @Mock
+    OfficeServiceImpl officeService;
+
     @Spy
     ClientConvert clientConvert;
+
+    @Spy
+    Validate validate;
 
     @Before
     public void init(){
         MockitoAnnotations.initMocks(this);
-        client = new Client(new Office(),"qwerty","qwerty","qwerty","qwerty","qwerty");
-        client1 = new Client(new Office(),"qwerty","qwert","qwert","qwert","qwert");
-        client2 = new Client(new Office(),"qwerty","qwer","qwer","qwer","qwer");
-        clientDto = new ClientDto("qwerty","qwerty","qwerty","qwerty","qwerty", 1);
+        client = new Client(new Office(),"qwerty","qwerty","qwerty","qwerty","+375295642354");
+        client1 = new Client(new Office(),"qwerty","qwert","qwert","qwert","+375295642354");
+        client2 = new Client(new Office(),"qwerty","qwer","qwer","qwer","+375295642354");
+        clientDto = new ClientDto("qwerty","qwerty","qwerty","qwerty","+375295642354", 1);
         clients = Stream.of(client, client1, client2)
                 .collect(Collectors.toList());
         clientDtos = clients.stream()
@@ -60,29 +69,33 @@ public class ClientServiceImplTest {
 
     }
 
+    @Test(expected = ClientNotFoundException.class)
+    public void findByIdTestException(){ clientService.findById(1); }
+
     @Test
-    public void findByIdTest(){
-        when(clientRepository.findById(1)).thenReturn(Optional.of(client));
-        assertEquals(clientConvert.convert(client), clientService.findById(1));
-    }
+    public void saveTest(){
+        when(officeService.findById(1)).thenReturn(new Office());
+        when(clientRepository.save(client)).thenReturn(client);
+        assertEquals(client, clientService.save(clientDto));
+     }
+
 
     @Test
     public void findAllTest(){
         when(clientRepository.findAll()).thenReturn(clients);
-        assertEquals(clientDtos , clientService.findAll());
+        assertEquals(clients , clientService.findAll());
     }
 
     @Test
     public void findByNameTest(){
         when(clientRepository.findByName("qwerty")).thenReturn(clients);
-        assertEquals(clientDtos, clientService.findByName("qwerty"));
+        assertEquals(clients, clientService.findByName("qwerty"));
     }
 
     @Test
     public void findByLoginTest(){
         when(clientRepository.findByLogin("qwerty")).thenReturn(client);
-        assertEquals(clientConvert.convert(client
-        ),clientService.findByLogin("qwerty"));
+        assertEquals(client,clientService.findByLogin("qwerty"));
     }
 
     @Test

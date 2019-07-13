@@ -10,8 +10,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class ClientConvert {
 
-
-
     public ClientDto convert(Client client){
         ClientDto clientDto = new ClientDto();
         clientDto.setId(client.getId());
@@ -19,7 +17,6 @@ public class ClientConvert {
         clientDto.setLogin(client.getLogin());
         clientDto.setName(client.getName());
         clientDto.setPassword(client.getPassword());
-
         clientDto.setPhoneNumber(client.getPhoneNumber());
         return clientDto;
     }

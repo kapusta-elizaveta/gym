@@ -23,12 +23,12 @@ public class ClientController {
     }
 
     @GetMapping(value = "/id/{id}")
-    ResponseEntity<ClientDto> findById(@PathVariable("id") Integer id){
+    ResponseEntity<Client> findById(@PathVariable("id") Integer id){
         return new ResponseEntity<>(clientService.findById(id), HttpStatus.OK);
     }
 
     @GetMapping(value = "/")
-    ResponseEntity<List<ClientDto>> findAll(){
+    ResponseEntity<List<Client>> findAll(){
         return new ResponseEntity<>(clientService.findAll(), HttpStatus.OK); }
 
     @DeleteMapping(value = "/{id}")
@@ -38,17 +38,17 @@ public class ClientController {
     }
 
     @GetMapping(value = "/name/{name}")
-    ResponseEntity<List<ClientDto>> findByName(@PathVariable("name") String name){
+    ResponseEntity<List<Client>> findByName(@PathVariable("name") String name){
         return new ResponseEntity<>(clientService.findByName(name), HttpStatus.OK);
     }
 
     @GetMapping(value = "/login/{login}")
-    ResponseEntity<ClientDto> findByLogin(@PathVariable("login") String login){
+    ResponseEntity<Client> findByLogin(@PathVariable("login") String login){
         return new ResponseEntity<>(clientService.findByLogin(login), HttpStatus.OK);
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    ResponseEntity<ClientDto> save(@Validated @RequestBody ClientDto clientDto){
+    ResponseEntity<Client> save(@Validated @RequestBody ClientDto clientDto){
         return new ResponseEntity<>(clientService.save(clientDto), HttpStatus.CREATED);
     }
 

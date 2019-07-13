@@ -14,7 +14,7 @@ public class RoomConvert {
         return roomDto;
     }
 
-    Room convert(RoomDto roomDto){
+    public Room convert(RoomDto roomDto){
         Room room = new Room();
         room.setId(roomDto.getId());
         room.setName(roomDto.getName());

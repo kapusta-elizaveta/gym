@@ -1,5 +1,8 @@
 package com.gym.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -7,13 +10,13 @@ import javax.persistence.ManyToOne;
 @Entity
 public class SaleSubscription extends BaseEntity{
 
-
-    @ManyToOne
+    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+    @ManyToOne(cascade = {CascadeType.ALL})
     @JoinColumn(name = "clientId")
     private Client client;
 
-
-    @ManyToOne
+    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+    @ManyToOne(cascade = {CascadeType.ALL})
     @JoinColumn(name = "subscriptionsId")
     private Subscription subscription;
 

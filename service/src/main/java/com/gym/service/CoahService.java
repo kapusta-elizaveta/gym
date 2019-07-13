@@ -7,14 +7,14 @@ import java.util.List;
 
 public interface CoahService {
 
-    List<CoachDto> findAll();
+    List<Coach> findAll();
 
-    List<CoachDto> findByName(String name);
+    List<Coach> findByName(String name);
 
-    CoachDto findById(Integer id);
+    Coach findById(Integer id);
 
     void deleteById(Integer id);
 
-  //  CoachDto save(CoachDto coachDto);
+    Coach save(CoachDto coachDto);
 
 }

@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class ClientServiceImpl implements ClientService {
@@ -39,33 +38,28 @@ public class ClientServiceImpl implements ClientService {
     }
 
     @Override
-    public List<ClientDto> findAll() {
-        return clientRepository.findAll()
-                .stream()
-                .map(clientConvert::convert)
-                .collect(Collectors.toList());
+    public List<Client> findAll() {
+        return clientRepository.findAll();
     }
 
     @Override
-    public ClientDto findById(Integer id) {
+    public Client findById(Integer id) {
         Optional<Client> optionalClient = clientRepository.findById(id);
         if (optionalClient.isPresent()){
-            return clientConvert.convert(optionalClient.get());
+            return optionalClient.get();
         }
         throw new ClientNotFoundException("No such client");
     }
 
     @Override
-    public List<ClientDto> findByName(String name) {
-        return clientRepository.findByName(name)
-                .stream()
-                .map(clientConvert::convert)
-                .collect(Collectors.toList());
+    public List<Client> findByName(String name) {
+        return clientRepository.findByName(name);
     }
 
     @Override
-    public ClientDto findByLogin(String login) {
-        return clientConvert.convert(clientRepository.findByLogin(login));
+    public Client findByLogin(String login) {
+
+        return clientRepository.findByLogin(login);
     }
 
     @Override
@@ -76,13 +70,13 @@ public class ClientServiceImpl implements ClientService {
     }
 
     @Override
-    public ClientDto save(ClientDto clientDto) {
+    public Client save(ClientDto clientDto) {
 
         if (!validate.correctPhoneNumber(clientDto.getPhoneNumber())) {
             throw new IllegalArgumentException("This is not phoneNumber");
         }
         Client client = clientConvert.convert(clientDto);
-        client.setOffice(officeConvert.convert(officeService.findById(clientDto.getOfficeId())));
-        return clientConvert.convert(clientRepository.save(client)) ;
+        client.setOffice(officeService.findById(clientDto.getOfficeId()));
+        return clientRepository.save(client) ;
     }
 }

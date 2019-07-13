@@ -6,10 +6,8 @@ import com.gym.service.ScheduleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,17 +23,33 @@ public class ScheduleController {
     }
 
     @GetMapping(value = "/")
-    ResponseEntity<List<ScheduleDto>> findAll(){
+    ResponseEntity<List<Schedule>> findAll(){
         return new ResponseEntity<>(scheduleService.findAll(), HttpStatus.OK);
     }
 
+    @GetMapping(value = "/id/{id}")
+    ResponseEntity<Schedule> findById(@PathVariable("id") Integer id){
+        return new ResponseEntity<>(scheduleService.findById(id), HttpStatus.OK);
+    }
+
     @GetMapping(value = "/roomId/{roomId}")
-    ResponseEntity<List<ScheduleDto>> findByRoomId(@PathVariable("roomId")Integer id){
+    ResponseEntity<List<Schedule>> findByRoomId(@PathVariable("roomId")Integer id){
         return new ResponseEntity<>(scheduleService.findByRoomId(id), HttpStatus.OK);
     }
 
     @GetMapping(value = "/officeId/{officeId}")
-    ResponseEntity<List<ScheduleDto>> findByOfficeId(@PathVariable("officeId") Integer id){
+    ResponseEntity<List<Schedule>> findByOfficeId(@PathVariable("officeId") Integer id){
         return new ResponseEntity<>(scheduleService.findByOfficeId(id), HttpStatus.OK);
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
+    ResponseEntity<Schedule> save(@Validated @RequestBody ScheduleDto scheduleDto){
+        return new ResponseEntity<>(scheduleService.save(scheduleDto),HttpStatus.CREATED);
+    }
+
+    @DeleteMapping(value = "/{id}")
+    ResponseEntity<Schedule> deleteById(@RequestParam("id") Integer id){
+        scheduleService.deleteById(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }

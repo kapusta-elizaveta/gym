@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class SubscriptionServiceImpl implements SubscriptionService {
@@ -33,27 +32,33 @@ public class SubscriptionServiceImpl implements SubscriptionService {
 
 
     @Override
-    public List<SubscriptionDto> findAll() {
-        return subscriptionRepository.findAll()
-                .stream()
-                .map(subscriptionConvert::convert)
-                .collect(Collectors.toList());
+    public List<Subscription> findAll() {
+        return subscriptionRepository.findAll();
     }
 
     @Override
-    public List<SubscriptionDto> findCheaperSubscription(double price) {
+    public List<Subscription> findCheaperSubscription(double price) {
        if (price <=0) throw new IllegalArgumentException("Price is less than 1");
-        return subscriptionRepository.findCheaperSubscription(price)
-                .stream()
-                .map(subscriptionConvert::convert)
-                .collect(Collectors.toList());
+        return subscriptionRepository.findCheaperSubscription(price);
     }
 
     @Override
-    public SubscriptionDto findById(Integer id) {
+    public Subscription findById(Integer id) {
         Optional<Subscription> optionalSubscription = subscriptionRepository.findById(id);
         if (optionalSubscription.isPresent()){
-            return subscriptionConvert.convert(optionalSubscription.get());
+            return optionalSubscription.get();
         } throw new SubscriptionNotFoundException("No such subscription");
+    }
+
+    @Override
+    public Subscription save(SubscriptionDto subscriptionDto) {
+        Subscription subscription = subscriptionConvert.convert(subscriptionDto);
+        return subscriptionRepository.save(subscription);
+    }
+
+    @Override
+    public void deleteById(Integer id) {
+        this.findById(id);
+        subscriptionRepository.deleteById(id);
     }
 }

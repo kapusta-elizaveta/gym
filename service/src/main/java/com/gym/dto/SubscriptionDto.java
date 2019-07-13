@@ -8,11 +8,10 @@ public class SubscriptionDto {
 
     private Integer id;
 
-    @NotBlank
+    @Positive
     private int numberVisits;
 
     @Positive
-    @NotBlank
     private double price;
 
     public SubscriptionDto( @NotBlank int numberVisits,

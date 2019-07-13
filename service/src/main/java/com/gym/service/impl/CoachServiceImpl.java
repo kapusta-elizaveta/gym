@@ -6,12 +6,12 @@ import com.gym.entity.Coach;
 import com.gym.myException.CoachNotFoundException;
 import com.gym.repository.CoachRepository;
 import com.gym.service.CoahService;
+import com.gym.validate.Validate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class CoachServiceImpl implements CoahService {
@@ -20,34 +20,32 @@ public class CoachServiceImpl implements CoahService {
 
     private final CoachConvert coachConvert;
 
+    private final Validate validate;
+
     @Autowired
-    public CoachServiceImpl(CoachRepository coachRepository, CoachConvert coachConvert) {
+    public CoachServiceImpl(CoachRepository coachRepository, CoachConvert coachConvert, Validate validate) {
         this.coachRepository = coachRepository;
         this.coachConvert = coachConvert;
+        this.validate = validate;
     }
 
     @Override
-    public List<CoachDto> findAll() {
-        return coachRepository.findAll()
-                .stream()
-                .map(coachConvert::convert).collect(Collectors.toList());
+    public List<Coach> findAll() {
+        return coachRepository.findAll();
     }
 
 
 
     @Override
-    public List<CoachDto> findByName(String name) {
-        return coachRepository.findByName(name)
-                .stream()
-                .map(coachConvert::convert)
-                .collect(Collectors.toList());
+    public List<Coach> findByName(String name) {
+        return coachRepository.findByName(name);
     }
 
     @Override
-    public CoachDto findById(Integer id) {
+    public Coach findById(Integer id) {
         Optional<Coach> optionalCoach = coachRepository.findById(id);
         if (optionalCoach.isPresent()){
-            return coachConvert.convert(optionalCoach.get());
+            return optionalCoach.get();
         } throw new CoachNotFoundException("No such coach");
     }
 
@@ -57,9 +55,11 @@ public class CoachServiceImpl implements CoahService {
         coachRepository.deleteById(id);
     }
 
-//    @Override
-//    public CoachDto save(CoachDto coachDto) {
-//
-//        return null;
-//    }
+    @Override
+    public Coach save(CoachDto coachDto) {
+        if (!validate.correctPhoneNumber(coachDto.getPhoneNumber())){
+            throw new IllegalArgumentException("This is not phoneNumber");}
+        Coach coach = coachConvert.convert(coachDto);
+        return coachRepository.save(coach);
+    }
 }

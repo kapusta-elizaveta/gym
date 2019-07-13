@@ -7,11 +7,15 @@ import java.util.List;
 
 public interface OfficeService {
 
-    List<OfficeDto> findAll();
+    List<Office> findAll();
 
-    OfficeDto findById(Integer id);
+    Office findById(Integer id);
 
-    List<OfficeDto> findByName(String name);
+    List<Office> findByName(String name);
 
-    List<OfficeDto> findByCoachId(Integer id);
+    List<Office> findByCoachId(Integer id);
+
+    Office save(OfficeDto officeDto);
+
+    void deleteById(Integer id);
 }

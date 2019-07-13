@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bccdc35-9114-45c3-97fa-f736ac8684e7" name="Default Changelist" comment="first" />
+    <list default="true" id="0bccdc35-9114-45c3-97fa-f736ac8684e7" name="Default Changelist" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/gym/entity/SaleSubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/gym/entity/SaleSubscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/gym/entity/Coach.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/gym/entity/Coach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/gym/entity/SaleSubscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/gym/entity/SaleSubscription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ClientConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ClientConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/RoomConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/RoomConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ScheduleConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ScheduleConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/dto/CoachDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/dto/CoachDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/dto/SubscriptionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/dto/SubscriptionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/CoahService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/CoahService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/OfficeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/OfficeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/SaleSubscriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/SaleSubscriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/ScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/ScheduleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/SubscriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/SubscriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/CoachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/CoachServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/OfficeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/OfficeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/RoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/RoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SaleSubscriptionSaleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SaleSubscriptionSaleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ScheduleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ScheduleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SubscriptionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SubscriptionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/gym/validate/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/gym/validate/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/ClientServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/ClientServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/CoachServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/CoachServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/OfficeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/OfficeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/RoomServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/RoomServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/SaleSubscriptionServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/SaleSubscriptionServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/ScheduleServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/ScheduleServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/SubscriptionServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/SubscriptionServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/convertors/ClientConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/convertors/ClientConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/convertors/RoomConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/convertors/RoomConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/convertors/ScheduleConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/convertors/ScheduleConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/dto/CoachDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/dto/CoachDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/dto/SubscriptionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/dto/SubscriptionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/ClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/CoahService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/CoahService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/OfficeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/OfficeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/RoomService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/SaleSubscriptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/SaleSubscriptionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/ScheduleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/ScheduleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/SubscriptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/SubscriptionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/ClientServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/ClientServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/CoachServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/CoachServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/OfficeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/OfficeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/RoomServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/RoomServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/SaleSubscriptionSaleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/SaleSubscriptionSaleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/ScheduleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/ScheduleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/SubscriptionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/gym/service/impl/SubscriptionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/test-classes/ClientServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/test-classes/ClientServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/test-classes/CoachServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/test-classes/CoachServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/test-classes/OfficeServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/test-classes/OfficeServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/test-classes/RoomServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/test-classes/RoomServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/test-classes/SaleSubscriptionServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/test-classes/SaleSubscriptionServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/test-classes/ScheduleServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/test-classes/ScheduleServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/test-classes/SubscriptionServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/test-classes/SubscriptionServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/CoachController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/CoachController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/OfficeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/OfficeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SaleSubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SaleSubscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SubscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/gym/controller/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/gym/controller/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/gym/controller/CoachController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/gym/controller/CoachController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/gym/controller/OfficeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/gym/controller/OfficeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/gym/controller/RoomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/gym/controller/RoomController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/gym/controller/SaleSubscriptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/gym/controller/SaleSubscriptionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/gym/controller/ScheduleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/gym/controller/ScheduleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/gym/controller/SubscriptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/gym/controller/SubscriptionController.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
@@ -12,6 +85,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="48" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -72,7 +148,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="sale_subscription: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="subscription: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -82,99 +158,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/ClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ClientServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Client.java">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/validate/Validate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1373#1374#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1664#1665#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-                <element signature="e#2472#2473#0" expanded="true" />
-                <element signature="e#2577#2578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/client">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ClientConvert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/OfficeConvert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="850">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -195,57 +183,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/repository/ClientRepository.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service/src/test/java/SubscriptionServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/validate/Validate.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/myException/RoomNotFoundException.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/myException/SaleSubscriptionNotFoundException.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/myException/ScheduleNotFoundException.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/exception/MyExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/service/src/test/java/ClientServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ClientController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/ClientService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/CoachController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/SubscriptionService.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/repository/SubscriptionRepository.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SubscriptionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SubscriptionController.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/repository/RoomRepository.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/repository/SaleSubscriptionRepository.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/repository/ScheduleRepository.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/RoomServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/RoomController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/SaleSubscriptionService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SaleSubscriptionSaleImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SaleSubscriptionController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/RoomService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/ScheduleService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ScheduleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ScheduleController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/OfficeService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/OfficeController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/OfficeServiceImpl.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/repository/CoachRepository.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/CoahService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/CoachServiceImpl.java" />
         <option value="$PROJECT_DIR$/dao/pom.xml" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ClientServiceImpl.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/CoachConvert.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/RoomConvert.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/SaleSubscriptionConvert.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ScheduleConvert.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/SubscriptionConvert.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/ClientDto.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/CoachDto.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/OfficeDto.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/RoomDto.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/SaleSubscriptionDto.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/ScheduleDto.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/SubscriptionDto.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ClientConvert.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/OfficeConvert.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Client.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/CoahService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/entity/SaleSubscription.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/RoomConvert.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ScheduleConvert.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/CoachController.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/RoomDto.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/SubscriptionDto.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/dto/CoachDto.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ClientConvert.java" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Coach.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/RoomService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/OfficeService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/SubscriptionService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/OfficeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/RoomServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/SaleSubscriptionService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SaleSubscriptionSaleImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/ScheduleService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SubscriptionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/OfficeController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/RoomController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SubscriptionController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/service/src/test/java/CoachServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/OfficeServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/RoomServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/ClientServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/SubscriptionServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/SaleSubscriptionController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/gym/controller/ScheduleController.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/SaleSubscriptionServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/ScheduleServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/validate/Time24HoursValidator.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/validate/Validate.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/CoachServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ScheduleServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -262,18 +250,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-2" />
-    <option name="y" value="119" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -425,6 +406,16 @@
               <item name="projectGym" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="validate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -434,6 +425,58 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectGym" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -480,41 +523,41 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="ClientServiceImplTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SaleSubscriptionServiceImplTest.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceImplTest" />
-      <option name="METHOD_NAME" value="findAllTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientServiceImplTest.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="SaleSubscriptionServiceImplTest" />
       <option name="METHOD_NAME" value="findByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientServiceImplTest.findByLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SaleSubscriptionServiceImplTest.findByIdTestException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceImplTest" />
-      <option name="METHOD_NAME" value="findByLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="SaleSubscriptionServiceImplTest" />
+      <option name="METHOD_NAME" value="findByIdTestException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientServiceImplTest.findByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScheduleServiceImplTest.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceImplTest" />
-      <option name="METHOD_NAME" value="findByNameTest" />
+      <option name="MAIN_CLASS_NAME" value="ScheduleServiceImplTest" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionServiceImplTest.deleteByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubscriptionServiceImplTest" />
+      <option name="METHOD_NAME" value="deleteByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -536,10 +579,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.ClientServiceImplTest.findByNameTest" />
-        <item itemvalue="JUnit.ClientServiceImplTest.findByIdTest" />
-        <item itemvalue="JUnit.ClientServiceImplTest.findAllTest" />
-        <item itemvalue="JUnit.ClientServiceImplTest.findByLoginTest" />
+        <item itemvalue="JUnit.ScheduleServiceImplTest.findByIdTest" />
+        <item itemvalue="JUnit.SaleSubscriptionServiceImplTest.findByIdTest" />
+        <item itemvalue="JUnit.SaleSubscriptionServiceImplTest.findByIdTestException" />
+        <item itemvalue="JUnit.SubscriptionServiceImplTest.deleteByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -566,44 +609,45 @@
       <workItem from="1562441149130" duration="878000" />
       <workItem from="1562485886252" duration="22312000" />
       <workItem from="1562611547038" duration="6396000" />
-      <workItem from="1562656458849" duration="9145000" />
+      <workItem from="1562656458849" duration="22522000" />
+      <workItem from="1562761568300" duration="19245000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientServiceImplTest_findByLoginTest - 2019.07.06 at 02h 55m 33s.xml">
-      <configuration name="ClientServiceImplTest.findByLoginTest" configurationId="JUnit" />
+    <history-entry file="ClientServiceImplTest_saveTest - 2019.07.10 at 20h 42m 14s.xml">
+      <configuration name="ClientServiceImplTest.saveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceImplTest_findByIdTest - 2019.07.06 at 02h 56m 54s.xml">
-      <configuration name="ClientServiceImplTest.findByIdTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientServiceImplTest_findAllTest - 2019.07.06 at 02h 57m 13s.xml">
-      <configuration name="ClientServiceImplTest.findAllTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientServiceImplTest_findByNameTest - 2019.07.06 at 02h 57m 49s.xml">
+    <history-entry file="ClientServiceImplTest_findByNameTest - 2019.07.10 at 20h 46m 04s.xml">
       <configuration name="ClientServiceImplTest.findByNameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceImplTest_findByNameTest - 2019.07.06 at 03h 01m 50s.xml">
+    <history-entry file="ClientServiceImplTest_findByNameTest - 2019.07.10 at 20h 46m 47s.xml">
       <configuration name="ClientServiceImplTest.findByNameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceImplTest_findByIdTest - 2019.07.07 at 16h 00m 02s.xml">
-      <configuration name="ClientServiceImplTest.findByIdTest" configurationId="JUnit" />
+    <history-entry file="SubscriptionServiceImplTest_deleteByIdTest - 2019.07.10 at 20h 50m 07s.xml">
+      <configuration name="SubscriptionServiceImplTest.deleteByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceImplTest_findByIdTest - 2019.07.07 at 16h 01m 18s.xml">
-      <configuration name="ClientServiceImplTest.findByIdTest" configurationId="JUnit" />
+    <history-entry file="SaleSubscriptionServiceImplTest_findByIdTestException - 2019.07.10 at 21h 00m 20s.xml">
+      <configuration name="SaleSubscriptionServiceImplTest.findByIdTestException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceImplTest_findByNameTest - 2019.07.07 at 16h 21m 10s.xml">
-      <configuration name="ClientServiceImplTest.findByNameTest" configurationId="JUnit" />
+    <history-entry file="SaleSubscriptionServiceImplTest_findByIdTest - 2019.07.10 at 21h 01m 26s.xml">
+      <configuration name="SaleSubscriptionServiceImplTest.findByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceImplTest_findByNameTest - 2019.07.07 at 16h 21m 24s.xml">
-      <configuration name="ClientServiceImplTest.findByNameTest" configurationId="JUnit" />
+    <history-entry file="SaleSubscriptionServiceImplTest_findByIdTest - 2019.07.10 at 21h 01m 50s.xml">
+      <configuration name="SaleSubscriptionServiceImplTest.findByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientServiceImplTest_findByNameTest - 2019.07.07 at 19h 47m 03s.xml">
-      <configuration name="ClientServiceImplTest.findByNameTest" configurationId="JUnit" />
+    <history-entry file="SaleSubscriptionServiceImplTest_findByIdTest - 2019.07.10 at 21h 02m 25s.xml">
+      <configuration name="SaleSubscriptionServiceImplTest.findByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScheduleServiceImplTest_findByIdTest - 2019.07.10 at 21h 03m 18s.xml">
+      <configuration name="ScheduleServiceImplTest.findByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScheduleServiceImplTest_findByIdTest - 2019.07.10 at 21h 04m 22s.xml">
+      <configuration name="ScheduleServiceImplTest.findByIdTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107189000" />
+    <option name="totallyTimeSpent" value="139811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -615,7 +659,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23298033" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.59738135" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -627,15 +671,15 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.41734862" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.48281506" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.35188216" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3289689" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" visible="true" weight="0.14372164" />
+      <window_info anchor="right" id="Database" order="2" sideWeight="0.497545" visible="true" weight="0.14220877" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" weight="0.32980332" />
@@ -643,211 +687,123 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.502455" side_tool="true" visible="true" weight="0.14220877" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/test/java/ClientServiceImplTest.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gym$Application.ic" NAME="Application Coverage Results" MODIFIED="1562781888453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gym.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SubscriptionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/OfficeDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/OfficeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/CoachController.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/SubscriptionDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/SubscriptionController.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/RoomDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/ClientDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/office">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/repository/RoomRepository.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ClientConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/repository/SaleSubscriptionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/entity/SaleSubscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/repository/SubscriptionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/repository/ScheduleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/RoomController.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/CoachDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="38" column="81" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/SaleSubscriptionController.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/CoachConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="-58">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SaleSubscriptionSaleImpl.java">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Coach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="271">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/SaleSubscriptionService.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/RoomConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/ScheduleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/RoomServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ScheduleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/test/java/OfficeServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/ScheduleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/RoomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/OfficeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/OfficeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/repository/CoachRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/CoachServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+        <state relative-caret-position="228">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -860,266 +816,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/OfficeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="414">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/repository/ClientRepository.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/SaleSubscriptionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/repository/OfficeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/CoachConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/RoomConvert.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/RoomService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/SaleSubscriptionConvert.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/RoomServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="492">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ScheduleConvert.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/ScheduleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/SubscriptionConvert.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/SubscriptionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/test/java/ClientServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SubscriptionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/ecb30980-ee8f-431c-af54-78b997aa90e3.SCHEMA:gym.public">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>ecb30980-ee8f-431c-af54-78b997aa90e3.SCHEMA:gym.public</OriginalElement>
-          <nodes>
-            <node x="371.0" y="376.0">ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.subscription</node>
-            <node x="0.0" y="0.0">ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.coach</node>
-            <node x="199.0" y="354.0">ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.schedule</node>
-            <node x="0.0" y="332.0">ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.client</node>
-            <node x="218.5" y="22.0">ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.room</node>
-            <node x="58.0" y="166.0">ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.office</node>
-            <node x="189.75" y="564.0">ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.sale_subscription</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.office" target="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.room">
-              <point x="31.5" y="-58.0" />
-              <point x="152.5" y="141.0" />
-              <point x="250.0" y="141.0" />
-              <point x="-31.5" y="36.0" />
-            </edge>
-            <edge source="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.client" target="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.office">
-              <point x="0.0" y="-91.0" />
-              <point x="-31.5" y="58.0" />
-            </edge>
-            <edge source="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.schedule" target="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.room">
-              <point x="38.0" y="-69.0" />
-              <point x="31.5" y="36.0" />
-            </edge>
-            <edge source="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.office" target="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.coach">
-              <point x="-31.5" y="-58.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-            <edge source="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.schedule" target="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.office">
-              <point x="-38.0" y="-69.0" />
-              <point x="237.0" y="307.0" />
-              <point x="152.5" y="307.0" />
-              <point x="31.5" y="58.0" />
-            </edge>
-            <edge source="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.sale_subscription" target="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.client">
-              <point x="-38.5" y="-69.0" />
-              <point x="228.25" y="539.0" />
-              <point x="89.5" y="539.0" />
-              <point x="0.0" y="91.0" />
-            </edge>
-            <edge source="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.sale_subscription" target="ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.subscription">
-              <point x="38.5" y="-69.0" />
-              <point x="305.25" y="539.0" />
-              <point x="444.0" y="539.0" />
-              <point x="0.0" y="47.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7714681440443213" x="35.54847396768406" y="301.0951526032316" />
-          <SelectedNodes>
-            <node>ecb30980-ee8f-431c-af54-78b997aa90e3.TABLE:gym.public.sale_subscription</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/ClientDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/CoachDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/RoomDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/SaleSubscriptionDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/ScheduleDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/SubscriptionDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/dto/OfficeDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/ClientConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/convertors/OfficeConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="271">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1135,39 +878,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/gym/entity/Client.java">
+    <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/coach">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/office">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/room">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/ClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        <state relative-caret-position="162">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/schedule">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/subscription">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/RoomServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/CoachController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/OfficeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/SaleSubscriptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="89" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/ScheduleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/controller/SubscriptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/OfficeServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/SaleSubscriptionServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/ScheduleServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/SubscriptionServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/CoachServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/validate/Time24HoursValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ecb30980-ee8f-431c-af54-78b997aa90e3/database/gym/schema/public/table/sale_subscription">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/CoachServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/SaleSubscriptionSaleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="68" column="82" selection-start-line="68" selection-start-column="82" selection-end-line="68" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ScheduleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/gym/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/service/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/ClientServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/gym/validate/Validate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1180,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>service</last-edited>
+          <last-edited>web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

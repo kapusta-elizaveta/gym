@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class OfficeServiceImpl implements OfficeService {
@@ -24,44 +23,55 @@ public class OfficeServiceImpl implements OfficeService {
 
     private final OfficeConvert officeConvert;
 
+    private final CoachServiceImpl coachService;
+
+    private final RoomServiceImpl roomService;
+
     @Autowired
-    public OfficeServiceImpl(OfficeRepository officeRepository, CoachRepository coachRepository, CoachConvert coachConvert, OfficeConvert officeConvert) {
+    public OfficeServiceImpl(OfficeRepository officeRepository, CoachRepository coachRepository, CoachConvert coachConvert, OfficeConvert officeConvert, CoachServiceImpl coachService, RoomServiceImpl roomService) {
         this.officeRepository = officeRepository;
         this.coachRepository = coachRepository;
         this.officeConvert = officeConvert;
+        this.coachService = coachService;
+        this.roomService = roomService;
     }
 
     @Override
-    public List<OfficeDto> findAll() {
-        return officeRepository.findAll()
-                .stream()
-                .map(officeConvert::convert)
-                .collect(Collectors.toList());
+    public List<Office> findAll() {
+        return officeRepository.findAll();
     }
 
     @Override
-    public OfficeDto findById(Integer id) {
+    public Office findById(Integer id) {
         Optional<Office> optionalOffice = officeRepository.findById(id);
         if (optionalOffice.isPresent()){
-            return officeConvert.convert(optionalOffice.get());
+            return optionalOffice.get();
         } throw new OfficeNotFoundException("No such office");
     }
 
     @Override
-    public List<OfficeDto> findByName(String name) {
-        return officeRepository.findByName(name)
-                .stream()
-                .map(officeConvert::convert)
-                .collect(Collectors.toList());
+    public List<Office> findByName(String name) {
+        return officeRepository.findByName(name);
     }
 
     @Override
-    public List<OfficeDto> findByCoachId(Integer id) {
-        coachRepository.findById(id);
-        return officeRepository.findByCoachId(id)
-                .stream()
-                .map(officeConvert::convert)
-                .collect(Collectors.toList());
+    public List<Office> findByCoachId(Integer id) {
+        coachService.findById(id);
+        return officeRepository.findByCoachId(id);
+    }
+
+    @Override
+    public Office save(OfficeDto officeDto) {
+        Office office = officeConvert.convert(officeDto);
+        office.setCoach(coachService.findById(officeDto.getCoachId()));
+        office.setRoom(roomService.findById(officeDto.getRoomId()));
+        return officeRepository.save(office);
+    }
+
+    @Override
+    public void deleteById(Integer id) {
+        this.findById(id);
+        officeRepository.deleteById(id);
     }
 }
 

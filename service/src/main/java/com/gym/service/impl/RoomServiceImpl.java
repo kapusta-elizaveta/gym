@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class RoomServiceImpl implements RoomService {
@@ -25,23 +24,32 @@ public class RoomServiceImpl implements RoomService {
     }
 
     @Override
-    public List<RoomDto> findAll() {
-        return roomRepository.findAll()
-                .stream()
-                .map(roomConvert::convert)
-                .collect(Collectors.toList());
+    public List<Room> findAll() {
+        return roomRepository.findAll();
     }
 
     @Override
-    public RoomDto findByName(String name) {
-        return roomConvert.convert(roomRepository.findByName(name));
+    public Room findByName(String name) {
+        return roomRepository.findByName(name);
     }
 
     @Override
-    public RoomDto findById(Integer id) {
+    public Room findById(Integer id) {
         Optional<Room> roomOptional = roomRepository.findById(id);
         if (roomOptional.isPresent()){
-            return roomConvert.convert(roomOptional.get());
+           return roomOptional.get();
         } throw new RoomNotFoundException("No such room");
+    }
+
+    @Override
+    public Room save(RoomDto roomDto) {
+        Room room = roomConvert.convert(roomDto);
+        return roomRepository.save(room);
+    }
+
+    @Override
+    public void deleteById(Integer id) {
+        this.findById(id);
+        roomRepository.deleteById(id);
     }
 }

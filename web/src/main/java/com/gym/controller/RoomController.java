@@ -2,14 +2,13 @@ package com.gym.controller;
 
 
 import com.gym.dto.RoomDto;
+import com.gym.entity.Room;
 import com.gym.service.RoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,17 +24,28 @@ public class RoomController {
     }
 
     @GetMapping(value = "/")
-    ResponseEntity<List<RoomDto>> findAll(){
+    ResponseEntity<List<Room>> findAll(){
         return new ResponseEntity<>(roomService.findAll(), HttpStatus.OK);
     }
 
     @GetMapping(value = "/id/{id}")
-    ResponseEntity<RoomDto> findById(@PathVariable("id") Integer id){
+    ResponseEntity<Room> findById(@PathVariable("id") Integer id){
         return new ResponseEntity<>(roomService.findById(id), HttpStatus.OK);
     }
 
     @GetMapping(value = "/name/{name}")
-    ResponseEntity<RoomDto> findByName(@PathVariable("name") String name){
+    ResponseEntity<Room> findByName(@PathVariable("name") String name){
         return new ResponseEntity<>(roomService.findByName(name), HttpStatus.OK);
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
+    ResponseEntity<Room> save(@Validated @RequestBody RoomDto roomDto){
+        return new ResponseEntity<>(roomService.save(roomDto), HttpStatus.CREATED);
+    }
+
+    @DeleteMapping(value = "/{id}")
+    ResponseEntity<Void> deleteById(@RequestParam("id") Integer id){
+        roomService.deleteById(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }

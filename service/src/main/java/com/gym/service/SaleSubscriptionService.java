@@ -7,7 +7,13 @@ import java.util.List;
 
 public interface SaleSubscriptionService {
 
-    List<SaleSubscriptionDto> findByClientId(Integer id);
+    List<SaleSubscription> findByClientId(Integer id);
 
-    List<SaleSubscriptionDto> findBySubscriptionId(Integer id);
+    List<SaleSubscription> findBySubscriptionId(Integer id);
+
+    SaleSubscription save(SaleSubscriptionDto saleSubscriptionDto);
+
+    void deleteById(Integer id);
+
+    SaleSubscription findById(Integer id);
 }

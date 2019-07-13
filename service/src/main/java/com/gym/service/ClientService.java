@@ -1,22 +1,23 @@
 package com.gym.service;
 
 import com.gym.dto.ClientDto;
+import com.gym.entity.Client;
 
 import java.util.List;
 
 public interface ClientService {
 
-    List<ClientDto> findAll();
+    List<Client> findAll();
 
-    ClientDto findById(Integer id);
+    Client findById(Integer id);
 
-    List<ClientDto> findByName(String name);
+    List<Client> findByName(String name);
 
-    ClientDto findByLogin(String login);
+    Client findByLogin(String login);
 
     void deleteById(Integer id);
 
-    ClientDto save(ClientDto clientDto);
+    Client save(ClientDto clientDto);
 
 
 }

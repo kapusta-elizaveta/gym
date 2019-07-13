@@ -2,7 +2,6 @@ package com.gym.dto;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Positive;
 import java.util.Objects;
 
 public class CoachDto {

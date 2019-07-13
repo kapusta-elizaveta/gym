@@ -15,7 +15,7 @@ public class ScheduleConvert {
         return  scheduleDto;
     }
 
-    Schedule convert(ScheduleDto scheduleDto){
+   public Schedule convert(ScheduleDto scheduleDto){
         Schedule schedule = new Schedule();
         schedule.setId(scheduleDto.getId());
         schedule.setStartTime(scheduleDto.getStartTime());
